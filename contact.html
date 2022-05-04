@@ -1,0 +1,199 @@
+﻿<!DOCTYPE html>
+<!-- Template by Free Website Templates -->
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>	
+        <title>blog</title>
+        <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+	    <link rel="stylesheet" href="css/style.css" type="text/css" />
+        <link rel="stylesheet" href="css/style.css">
+  
+    </head>		
+
+
+<body> 
+
+  <header>
+  <div class="menu col-6">
+  <img src="images/plahka.png"style="position: absolute;top: 50px;"/ >
+  <ul id="navigation">
+    <li id="link1">
+      <a href="index.html" class="nav-link">Главная</a>
+    </li>
+    <li id="link5">
+      <a href="" class="nav-link">Профиль</a>
+    </li>
+    <li id="link4" >    
+      <a href="info.html" class="nav-link">Об авторе</a>
+    </li>
+   </ul>
+      </div>
+ </header>
+ 	
+<form action="#">
+<!--/*****Блок "Баланс реальных денег"*****/ -->
+ 	     <div class="Balans"> 
+ 	     <div class="FonBalans_1"></div>
+ 	        <div id="bal">
+ 	         <label id="label_1">
+ 	           <span>Баланс:</span><br>
+ 	           <input type="number"id="balance"disabled = "disabled" value="0"  /> 
+ 	         </label>
+ 	            <label id="label_2">
+ 	               <span>Количество:</span><br>
+ 	               <input  type="number"id="balance_new" value="0"onfocus="if (value == '0') {value = ''}" onblur="if (value == '') {value = '0'}"/>
+ 	            </label><br>
+ 	        </div>
+ 	    <a id="result_1"onclick="addition();showHide('balance_new');showHide('label_2');"></a>
+<!--/*****Блок "Баланс игровых монет"*****/ -->
+ 	       <br><br><br>
+ 	       <div class="FonBalans_2"></div>
+ 	          <div id="bal">
+ 	             <label id="label_1" style="color:orangered;">
+ 	                <span>Золото:</span><br>
+ 	                <input type="number"id="alm2"onfocus="this.value=''"disabled = "disabled" value="0"/>
+ 	             </label>
+ 	             <label id="label_2">
+ 	                <span>Количество:</span><br>
+ 	                <input id="d" type="number"value="0"onfocus="if (value == '0') {value = ''}" onblur="if (value == '') {value = '0'}"/>
+ 	             </label> 
+ 	          </div>
+ 	      <a id="result_2"onclick="addition2();showHide('d');showHide('label_3');"></a>
+ 	       <br><br><br>
+ 
+ 	       <div id="result_4"></div>
+<!--/*****Блок "Вывод средств, после игры"*****/-->  	       
+           <div class="FonBalans_3"></div>
+ 	          <div id="bal">
+ 	            <label id="label_1">
+ 	               <span>Вывод средств: </span><br>
+ 	               <input id="alm3" type="number"onfocus="this.value=''"disabled = "disabled" value="0"/>
+ 	            </label>   
+ 	          </div>
+ 	      <a class="button12"onclick="">  </a>
+ 	   
+ 	   
+ 	    
+    </div>
+ 	    
+ 	   </form>
+    
+   
+<div class="blok">
+<div class="Gnom1">
+<div class="stage"style="top:-560px;left:30px;">
+  <div class="layer"></div>
+  <div class="layer"></div>
+  <div class="layer"></div>
+  <div class="layer"></div>
+  <div class="layer"></div>
+  <div class="layer"></div>
+  <div class="layer"></div>
+  <div class="layer"></div>
+  <div class="layer"></div>
+  <div class="layer"></div>
+  <div class="layer"></div>
+  <div class="layer"></div>
+  <div class="layer"></div>
+  <div class="layer"></div>
+  <div class="layer"></div>
+  <div class="layer"></div>
+  <div class="layer"></div>
+  <div class="layer"></div>
+  <div class="layer"></div>
+  <div class="layer"></div>
+</div>
+
+  <img src="images/gnom1.png"id="gnom1" >
+   <h1>       
+       <input id="point"value="0" disabled = "disabled"/>
+         </h1>
+       <div class="number">    
+          <button class="number-minus" type="button" onclick="this.nextElementSibling.stepDown(); this.nextElementSibling.onchange();">-</button>
+            <input id="point2"type="number" min="0" value="0"readonly />
+          <button class="number-plus" type="button" onclick="this.previousElementSibling.stepUp(); this.previousElementSibling.onchange();">+</button>
+       </div>      
+      <button class="atuin-btn" onclick="add();">Нанять</button>
+
+</div>
+
+<div class="Gnom2">
+<div class="stage2"style="top:-560px;">
+  <div class="layer2"></div>
+  <div class="layer2"></div>
+  <div class="layer2"></div>
+  <div class="layer2"></div>
+  <div class="layer2"></div>
+  <div class="layer2"></div>
+  <div class="layer2"></div>
+  <div class="layer2"></div>
+  <div class="layer2"></div>
+  <div class="layer2"></div>
+  <div class="layer2"></div>
+  <div class="layer2"></div>
+  <div class="layer2"></div>
+  <div class="layer2"></div>
+  <div class="layer2"></div>
+  <div class="layer2"></div>
+  <div class="layer2"></div>
+  <div class="layer2"></div>
+  <div class="layer2"></div>
+  <div class="layer2"></div>
+</div>
+<div class="Fon2"></div>
+  <img src="images/gnom2.png"id="gnom2" >
+   <h1>      
+        <input id="point3" disabled = "disabled"value="0"/>
+         </h1>
+       <div class="number_2">
+          <button class="number-minus_2" type="button" onclick="this.nextElementSibling.stepDown(); this.nextElementSibling.onchange();">-</button>
+            <input id="point4"type="number" min="0" value="0" readonly>
+          <button class="number-plus_2" type="button" onclick="this.previousElementSibling.stepUp(); this.previousElementSibling.onchange();">+</button>  
+       </div> 
+  <button class="atuin-btn2" onclick="add2();">Нанять</button> 
+</div>
+  <div class="Gnom3">
+  <div class="stage3"style="top:-560px;left:650px;">
+  <div class="layer3"></div>
+  <div class="layer3"></div>
+  <div class="layer3"></div>
+  <div class="layer3"></div>
+  <div class="layer3"></div>
+  <div class="layer3"></div>
+  <div class="layer3"></div>
+  <div class="layer3"></div>
+  <div class="layer3"></div>
+  <div class="layer3"></div>
+  <div class="layer3"></div>
+  <div class="layer3"></div>
+  <div class="layer3"></div>
+  <div class="layer3"></div>
+  <div class="layer3"></div>
+  <div class="layer3"></div>
+  <div class="layer3"></div>
+  <div class="layer3"></div>
+  <div class="layer3"></div>
+  <div class="layer3"></div>
+ 
+</div>
+  <img src="images/gnom3.png"id="gnom3" > 
+   <h1>  
+      <input id="point5"disabled = "disabled"value="0" />
+         </h1>
+       <div class="number_3">
+          <button class="number-minus_3" type="button" onclick="this.nextElementSibling.stepDown(); this.nextElementSibling.onchange();">-</button>
+            <input id="point6"type="number" min="0" value="0" readonly>
+          <button class="number-plus_3"type="button" onclick="this.previousElementSibling.stepUp(); this.previousElementSibling.onchange();">+</button>
+ 	   </div>
+  <button class="atuin-btn_3"onclick="add3();" >Нанять</button> 
+  </div>
+ 
+ </div>
+  
+
+     
+
+<script src="./js/main.js"></script>
+
+</body>
+</html>  

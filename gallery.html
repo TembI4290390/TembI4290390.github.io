@@ -1,0 +1,154 @@
+﻿<!DOCTYPE html>
+<!-- Template by Free Website Templates -->
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>	
+        <title>blog</title>
+        <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+	    <link rel="stylesheet" href="css/style.css" type="text/css" />
+        <link rel="stylesheet" href="css/style.css">
+  
+    </head>		
+<script>
+var a = parseFloat(document.getElementById('a').value);
+function addition(){
+    var x=parseFloat(document.getElementById('a').value)
+    var b = parseInt(document.getElementById('b').value);
+    var c=x+b;
+      if (isNaN(a)==true) a=0;
+      if (isNaN(b)==true) b=0;
+        document.getElementById('result').innerHTML=c;
+        document.getElementById('a').value=c;
+        document.getElementById('b').value='0';
+      }
+function addition2(){
+    var x=parseFloat(document.getElementById('a').value)             
+    var d=parseInt(document.getElementById('d').value); 
+    var al=parseInt(document.getElementById('alm').value); 
+    var al2=parseFloat(document.getElementById('alm2').value);
+    var al3=parseFloat(document.getElementById('alm3').value);
+    var per=x-d;
+    var alm=al+(d*0.1);
+    var alm2=al2+d;
+    var alm3=al3+d*0.9;
+ if (d>x){
+      alert('Ошибка');
+      document.getElementById('d').value=0;
+ }
+ else{
+      document.getElementById('result2').innerHTML=per;
+      document.getElementById('result3').value=alm;
+      document.getElementById('result4').value=alm2;
+      document.getElementById('result5').value=alm3;
+      document.getElementById('alm3').value=alm3;
+      document.getElementById('alm2').value=alm2;
+      document.getElementById('alm').value=alm;
+      document.getElementById('a').value=per;
+      document.getElementById('d').value=0;
+ }
+} 
+ function add(){
+ var point=parseInt(document.getElementById('point').value);
+ var point2=parseInt(document.getElementById('point2').value);
+ var res=point+point2;
+
+ document.getElementById('point').value=res;
+document.getElementById('point2').value=0;
+ }
+ function add2(){
+ var point3=parseInt(document.getElementById('point3').value);
+ var point4=parseInt(document.getElementById('point4').value);
+ var res2=point3+point4;
+ 
+ document.getElementById('point3').value=res2;
+ document.getElementById('point4').value=0;
+ }
+ function add3(){
+ var point5=parseInt(document.getElementById('point5').value);
+ var point6=parseInt(document.getElementById('point6').value);
+ var res3=point5+point6;
+ 
+ document.getElementById('point5').value=res3;
+ document.getElementById('point6').value=0;
+ }
+// Убавляем кол-во по клику
+$('.quantity_inner .bt_minus').click(function() {
+    let $input = $(this).parent().find('.quantity');
+    let count = parseInt($input.val()) - 1;
+    count = count < 1 ? 1 : count;
+    $input.val(count);
+});
+// Прибавляем кол-во по клику
+$('.quantity_inner .bt_plus').click(function() {
+    let $input = $(this).parent().find('.quantity');
+    let count = parseInt($input.val()) + 1;
+    count = count > parseInt($input.data('max-count')) ? parseInt($input.data('max-count')) : count;
+    $input.val(parseInt(count));
+}); 
+// Убираем все лишнее и невозможное при изменении поля
+$('.quantity_inner .quantity').bind("change keyup input click", function() {
+    if (this.value.match(/[^0-9]/g)) {
+        this.value = this.value.replace(/[^0-9]/g, '');
+    }
+    if (this.value == "") {
+        this.value = 1;
+    }
+    if (this.value > parseInt($(this).data('max-count'))) {
+        this.value = parseInt($(this).data('max-count'));
+    }    
+});    
+function showHide (id){
+  var style = document.getElementById(id).style
+    if (style.visibility == "collapse")
+        style.visibility = "visible";
+    else
+        style.visibility = "collapse";
+} 
+</script>
+<body>
+<div id="page"style="margin-top:15px;">
+  <div id="header">
+<!--Название игры
+    <img src="images/mart.png"id="main" alt=""/><br>
+<!-- Баланс реальных денег ₽-->	
+	    
+<div class="block">		
+  </div>
+
+<div id="Bank" >
+ 
+         <marquee name="qw" >
+
+         </marquee>
+      
+</div>
+ 
+<!-- Найм рабочих для получения алмазов-->
+
+    
+<!--    <img src="images/i.jpg"id="i">-->
+    
+    
+<div class="blok">
+
+
+ 
+ 
+
+ </div>
+
+<!--Навигация по страницам сайта-->  
+
+    			<ul id="navigation">
+    			<li id="link1"><a href="index.html">Главная</a></li>
+    			<li id="link2"><a href="contact.html">Наёмники</a></li>	
+    			
+    			
+    			<li id="link3"><a href="info.html">Сейф</a></li>		
+    			<li id="link6"class="selected"><a href="gallery.html">Правила</a></li>
+    			</ul>		
+</div>
+  </div> 
+</div>
+</body>
+</html>  

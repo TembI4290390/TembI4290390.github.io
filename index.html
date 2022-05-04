@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+     <title>Мой первый проект</title>
+     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+     <link rel="stylesheet" href="./css/style.css">
+    </head>
+<body>
+<header>
+  <div class="menu col-6">
+  <img src="images/plahka.png"style="position: absolute;top: 50px;"/ >
+  <ul id="navigation">
+    <li id="link1">
+       <a href="index.html" class="nav-link">Главная</a>
+    </li>
+    <li id="link2">
+       <a href="login.html" class="nav-link">Авторизация</a>
+    </li>
+    <li id="link3" >    
+       <a href="index2.html" class="nav-link">Регистрация</a>
+    <li id="link4" >    
+       <a href="info.html" class="nav-link">Об авторе</a>
+    </li>
+  </ul>
+  </div>
+ </header>	    
+<form action="#">
+<!--/*****Блок "Баланс реальных денег"*****/ -->
+ 	     <div class="Balans"> 
+ 	     <div class="FonBalans_1"></div>
+ 	        <div id="bal">
+ 	         <label id="label_1">
+ 	           <span>Баланс:</span><br>
+ 	           <input type="number"id="balance"disabled = "disabled" value="0"  /> 
+ 	         </label>
+ 	            <label id="label_2">
+ 	               <span>Количество:</span><br>
+ 	               <input  type="number"id="balance_new" value="0"onfocus="if (value == '0') {value = ''}" onblur="if (value == '') {value = '0'}"/>
+ 	            </label><br>
+ 	        </div>
+ 	    <a id="result_1"onclick="addition();showHide('balance_new');showHide('label_2');"></a>
+<!--/*****Блок "Баланс игровых монет"*****/ -->
+ 	       <br><br><br>
+ 	       <div class="FonBalans_2"></div>
+ 	          <div id="bal">
+ 	             <label id="label_1" style="color:orangered;">
+ 	                <span>Золото:</span><br>
+ 	                <input type="number"id="alm2"onfocus="this.value=''"disabled = "disabled" value="0"/>
+ 	             </label>
+ 	             <label id="label_3">
+ 	                <span>Количество:</span><br>
+ 	                <input id="d" type="number"value="0"onfocus="if (value == '0') {value = ''}" onblur="if (value == '') {value = '0'}"/>
+ 	             </label> 
+ 	          </div>
+ 	      <a id="result_2"onclick="addition2();showHide('d');showHide('label_3');"></a>
+ 	       <br><br><br>
+<!--/*****Блок "Вывод средств, после игры"*****/-->  	       
+           <div class="FonBalans_3"></div>
+ 	          <div id="bal">
+ 	            <label id="label_1">
+ 	               <span>Вывод средств: </span><br>
+ 	               <input id="alm3" type="number"onfocus="this.value=''"disabled = "disabled" value="0"/>
+ 	            </label>   
+ 	          </div>
+ 	      <a class="button12"onclick="">  </a>
+ 	       <div id="result3"></div>
+ 	    <div id="result4"></div>
+ 	    <div id="result5"></div> 
+    </div>
+</form>
+    
+<div id="Joy_1"> 
+<label id="label_4">Лагерь наёмников</label>
+    <a href="contact.html" >
+    <img src="images/MercenaryCamp.png"id="MercenaryCamp"><br>
+    <img src="images/play.png" id="play"><br>
+    </a>
+</div>
+       <div id="Joy_2"> 
+<label id="label_5"> В ПРОЦЕССЕ...</label>
+    <a href="" >
+    <img src="images/proces.png"style="width:280px;"><br>
+    <img src="images/play2.png" id="play2"><br>
+    </a>
+</div>
+ 	     <div id="Joy_3"> 
+<label id="label_6"> В ПРОЦЕССЕ...</label>
+    <a href="" >
+    <img src="images/proces2.png"style="width:280px;"><br>
+    <img src="images/play2.png" id="proces2"><br>
+    
+    </a>
+  
+
+
+</div>
+ 	   <script src="./js/main.js"></script>
+ 	   
+ 	    </body>
+ 	    </html>

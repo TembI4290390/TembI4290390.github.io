@@ -1,0 +1,269 @@
+body {min-height: 450px;height: 100vh;margin: 0;background: radial-gradient(circle, #0077ea, #1f4f96, #1b2949, #000);position:absolute;margin: 0px;padding: 0;font-family: Arial;font-family: 'madelikesscript';place-items: 20% 20%;perspective: 900px;height:100%;width:100%;background:url(../images/...);background-position: center center;background-attachment: fixed;background-size: cover;-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;}
+/***** Блок "Баланс реальных денег" *****/
+
+.Balans{position:relative;left:50px;top:150px;}
+.Balans .FonBalans_1{opacity:0.7; position:absolute;  width:320px; height:85px;top:13px;left:-15px;color:black;border:5px double dodgerblue; background:url(../images/money.jpg);z-index:-1;}
+.Balans #label_1{z-index:3;font-style:oblique;font-size:28px;}
+.Balans #balance{background-color:LightCyan;border-radius: 5px;border: 2px solid #456BD9; -webkit-transform: skewX(-10deg); box-shadow: inset calc(-9*(1em*90/135) - .5em) 0 rgba(255,255,255,0); width:130px;height:20px;border-color:#456BD9;font-size:20px;color:#456BD9;}
+.Balans #balance_new{background-color:LightCyan;border-radius: 5px;border: 2px solid #456BD9; -webkit-transform: skewX(-10deg); box-shadow: inset calc(-9*(1em*90/135) - .5em) 0 rgba(255,255,255,0); width:130px;height:20px;left:8px;top:0px;border-color:#456BD9;font-size:20px;position:relative;display:inline-block;color: #456BD9;visibility:collapse;}
+.Balans #label_2{left:144px;top:1px;visibility:collapse;font: bold 3em Arial, sans-serif;color: #0d3967;font-style:oblique;position:absolute;font-size:26px;}
+.Balans #result_1 {position:relative;left:-105px;top:32px;z-index: 1;color: black;font-size: 135%;font-weight: 700;text-decoration: none;padding: .25em .5em;}
+.Balans #result_1:after {content: "Пополнить";position:absolute;top:-20px;left: 110px;width: 95px;height:20px;z-index: -1;bottom: -2px;text-align:center;color: #fff;font-size: 80%;padding: .25em .5em;border-radius: 5px;border: 2px solid #456BD9;-webkit-transform: skewX(-10deg);transform: skewX(-10deg);background: linear-gradient(dodgerblue, aqua) no-repeat 100% 0;background-size: calc(9*(1em*90/135) + .5em) 100%;box-shadow: inset calc(-9*(1em*90/135) - .5em) 0 rgba(255,255,255,0);transition: .3s;}
+.Balans #result_1:hover:after { box-shadow: inset calc(-9*(1em*90/135) - .5em) 0 rgba(255,255,255,.2);}
+.Balans #result_1:active:after {background-image: linear-gradient(#c61e40, #456BD9);}
+   /***** Блок "Баланс золота" *****/
+.Balans .FonBalans_2{ opacity:0.7;position:absolute;  width:320px; height:85px;top:142px;left:-15px;color:black;border:5px double dodgerblue; background:url(../images/gold.jpg);z-index:-1;}
+.Balans #alm2{border-radius: 5px;background-color:LightCyan;border: 2px solid #456BD9; -webkit-transform: skewX(-10deg); color:#ff0000; box-shadow: inset calc(-6*(1em*90/135) - .5em) 0 rgba(255,255,255,0); width:130px;height:20px;left:-2px;top:0px;border-color:orangered;font-size:20px;position:relative;display:inline-block;color:coral;}
+.Balans #d{left:8px;top:0px;background-color:LightCyan;position: relative;visibility:collapse;color: #ff0000;border-radius: 5px;border: 2px solid #456BD9; -webkit-transform: skewX(-10deg); box-shadow: inset calc(-9*(1em*90/135) - .5em) 0 rgba(255,255,255,0); width:130px;height:20px;border-color:orangered;font-size:20px;color:coral;}
+.Balans #label_3{top:0px;left:144px;visibility:collapse;font: bold 3em Arial, sans-serif;color: orangered;font-style:oblique;position:absolute;font-size:26px;}
+.Balans #result_2{position:relative;top:5px;left:-155px;z-index: 1;color: black;font-size: 135%;font-weight: 700;text-decoration: none;padding: .25em .5em;}
+.Balans #result_2:after {content: "Обменять";position:absolute;left: 160px;width: 90px;z-index: -1;bottom: -2px;text-align:center;color: #fff;font-size: 80%;padding: .25em .5em;border-radius: 5px;border: 2px solid #456BD9;-webkit-transform: skewX(-10deg);transform: skewX(-10deg);background: linear-gradient(dodgerblue, aqua) no-repeat 100% 0;background-size: calc(9*(1em*90/135) + .5em) 100%;box-shadow: inset calc(-9*(1em*90/135) - .5em) 0 rgba(255,255,255,0);transition: .3s;}
+.Balans #result_2:hover:after { box-shadow: inset calc(-9*(1em*90/135) - .5em) 0 rgba(255,255,255,.2);}
+.Balans #result_2:active:after {background-image: linear-gradient(#c61e40, #456BD9);} 
+/*****Блок "Регистрации и Авторизации" *****/
+ #registr,#avtoriz{width:200px;font-size:24px;font-weight:bold;z-index:3;overflow:hidden;}
+/*****Блок "Баланс реальных денег" *****/
+.Balans .FonBalans_3{background:url(../images/money.jpg);z-index:-3; opacity:0.7;width:320px;height:85px;position:absolute;left:-15px;top:272px; color:red;border:5px double aqua;}
+.Balans #alm3{background-color:LightCyan;border-radius: 5px;border: 2px solid #456BD9;-webkit-transform: skewX(-10deg);box-shadow: inset calc(-9*(1em*90/135) - .5em) 0 rgba(255,255,255,0); width:130px;font-size:20px;color:#456BD9;}
+.Balans a.button12 {position:relative;z-index: 1;color: black;font-size: 135%;top:5px;font-weight: 700;text-decoration: none;padding: .25em .5em;}
+.Balans a.button12:after {content: "Вывести";position:absolute;margin-top: -55px;bottom: -2px;left: 5px;width:90px;z-index: -1;text-align: center;color: #fff;font-size: 80%;padding: .25em .5em;border-radius: 5px;border: 2px solid #456BD9;-webkit-transform: skewX(-10deg);transform: skewX(-10deg);background: linear-gradient(dodgerblue, aqua) no-repeat 100% 0;background-size: calc(9*(1em*90/135) + .5em) 100%;box-shadow: inset calc(-9*(1em*90/135) - .5em) 0 rgba(255,255,255,0);transition: .3s;}
+.Balans a.button12:hover:after {box-shadow: inset calc(-9*(1em*90/135) - .5em) 0 rgba(255,255,255,.2);}
+.Balans a.button12:active:after {background-image: linear-gradient(#c61e40, #d4536d);}
+/*****Обьединяющий блок для гномов*****/
+#login{position:relative;left:-130px;top:240px;font-style:oblique;font-size:24px;}
+/*****Флажки*****/
+.blok_dot .blok_fon{z-index:-3;position:absolute;opacity:0.5;background:green;width:900px;height:495px;margin-left:91px;border:5px double red; }
+.blok_dot{}
+.blok_dot .dot {top:700px;left:400px;height: 1em; width: 1em; background-color: #456BD9;border-radius: 50%;display: inline-block;}
+.blok_dot #ddd{position:relat1ve; opacity:0.5; width:250px; height:250px;top:300px;left:-15px;color:black;border:5px double black; background:black;z-index:-1;}
+/*****Стили картинок*****/
+#Joy_1{position: absolute;top: 140px;left:600px;}
+#Joy_1 #label_4{font: bold 3em Arial, sans-serif;left:-50px;top:50px;color: forestgreen;font-style:oblique;width:auto;position:absolute;font-size:32px;}
+#Joy_1 #play{position: absolute;top:370px;left: -70px; width:180px;}
+#Joy_2{position: absolute; right: 550px;top:230px;}
+#Joy_2 #label_5{font: bold 3em Arial, sans-serif;top:-30px;left: 20px; color: forestgreen;font-style:oblique;width:auto;position:absolute;font-size:32px;}
+#Joy_2 #play2{position: absolute; left: 50px; width:180px;}
+#Joy_3{position: absolute;top: 230px; right: 200px;}
+#Joy_3 #label_6{font: bold 3em Arial, sans-serif;top: -30px;left: 20px; color: forestgreen;font-style:oblique;width:auto;position:absolute;font-size:32px;}
+#Joy_3 #proces2{position: absolute;left: 50px; width:180px;}
+
+#MercenaryCamp{position: absolute;width:330px;border:0;z-index: 1;top:120px;left:-150px;}
+
+ 
+ 
+   /*****Навигация по сайту*****/
+ ul{z-index: 2; padding: 10px 0;margin: 0 0 30px;border: 1px #D5B88E;border-style: dashed none dashed none;list-style:none;width: 0px;float: none !important;overflow: hidden;}
+ ul li{width: 87px;padding: 0 6px;border: 1px #D5B88E;border-style: none none none dashed;float: left;}
+ ul#navigation{border: 0 none;float: none !important;margin: 0;padding: 0;position: absolute;width: auto;right: 150px;top: 58px;}
+ ul#navigation li{border:0;width: auto;padding: 50;text-align: center;line-height: 50px;height: 55px;}
+ ul#navigation li a{background: none;color: #FFFFFF;font-weight: normal;height: auto;margin: 0;text-decoration: none;text-shadow: none;width: auto;outline:none;}
+ ul#navigation li a:hover{color: #c0ab8a;}
+ ul#navigation li#link1{width:74px;}
+ ul#navigation li#link1.selected{background: no-repeat 0 -223px;}
+ ul#navigation li#link2{width:74px;}
+ ul#navigation li#link2.selected{background: no-repeat 0 -223px;}
+ ul#navigation li#link3{width:84px;}
+ ul#navigation li#link3.selected{background: no-repeat 0 -223px;}
+ ul#navigation li#link4{width:74px;}
+ ul#navigation li#link4.selected{background:no-repeat 0 -223px;}
+ ul#navigation li#link5{width:74px;}
+ ul#navigation li#link5.selected{background:no-repeat 0 -223px;}
+
+
+ .stroke {font: bold 3em Arial, sans-serif;color: #0d3967;text-shadow: #cad5e2 1px 1px 0, #cad5e2 2px 2px 0, #cad5e2 3px 3px 0, #cad5e2 4px 4px 0, #cad5e2 5px 5px 0;}
+ label {font: bold 3em Arial, sans-serif;color: #0d3967;text-shadow: #cad5e2 1px 1px 0, #cad5e2 2px 2px 0, #cad5e2 3px 3px 0, #cad5e2 4px 4px 0, #cad5e2 5px 5px 0;}
+
+
+ #plahka{position: absolute;top: 50px;}
+h4{position: relative; top: 50px;left: 200px; color: white;}
+h2{position: relative; font-size:18px;left: 300px;}
+.main{font-size:34px;text-align: center; position: absolute;left: 100px; top: 400px;}
+.main #cull{position: relative;left:300px;}
+.main_2{position: relative;top: -1000px; font-size:34px;text-align: center;}
+.main_2 #cull_2{position: relative; font-size: 14px; top:-50px;}
+
+.main_3{position: relative;font-size:34px;top: -1000px;text-align: center;}
+.main_3 #cull_3{position: relative;top: -500px;}
+.main_3 #web{position: relative; font-size: 14px;top: 0px; left:-400px;}
+.main_3 #razrabotka{position: relative; font-size: 14px;left:-100px;top:-160px;}
+.main_3 #raketa{position: relative; font-size: 14px;left:210px;top:-320px;}
+.main_3 #rupor{position: relative; font-size: 14px;left:510px;top:-490px;}
+.main_3 #cull_4{position: relative; font-size: 14px; top:-45px;}
+
+.blok .Gnom1 .stage {z-index:3;height: 0;width: 0;margin:auto;position:absolute;bottom: 0;perspective: 9999px;transform-style: preserve-3d;}
+.blok .Gnom1 .layer {width: 100%;height: 100%;position: absolute;transform-style: preserve-3d;animation-fill-mode: forwards;transform: rotateY(0) rotateX(0) translateZ(0);}
+ .blok .Gnom1 .layer:after {font: 30px/0.6 "Pacifico", "Kaushan Script", Futura, "Roboto", "Trebuchet MS", Helvetica, sans-serif;content: "Гном - новичок";white-space: pre;text-align: center;height: 100%;width: 100%;position: absolute;top: 50px;  color: whitesmoke;text-shadow: 4px 0 10px rgba(0, 0, 0, 0.13);}
+.blok .Gnom1 .layer:nth-child(1):after {transform: translateZ(0px);}
+.blok .Gnom1 .layer:nth-child(2):after {transform: translateZ(-0.5px);}
+.blok .Gnom1 .layer:nth-child(3):after {transform: translateZ(-1px);}
+.blok .Gnom1 .layer:nth-child(4):after {transform: translateZ(-1.5px);}
+.blok .Gnom1 .layer:nth-child(5):after {transform: translateZ(-2px);}
+.blok .Gnom1 .layer:nth-child(6):after {transform: translateZ(-2.5px);}
+.blok .Gnom1 .layer:nth-child(7):after {transform: translateZ(-3px);}
+.blok .Gnom1 .layer:nth-child(8):after {transform: translateZ(-3.5px);}
+.blok .Gnom1 .layer:nth-child(9):after {transform: translateZ(-4px);}
+.blok .Gnom1 .layer:nth-child(10):after {transform: translateZ(-4.5px);}
+.blok .Gnom1 .layer:nth-child(11):after {transform: translateZ(-5px);}
+.blok .Gnom1 .layer:nth-child(12):after {transform: translateZ(-5.5px);}
+.blok .Gnom1 .layer:nth-child(13):after {transform: translateZ(-6px);}
+.blok .Gnom1 .layer:nth-child(14):after {transform: translateZ(-6.5px);}
+.blok .Gnom1 .layer:nth-child(15):after {transform: translateZ(-7px);}
+.blok .Gnom1 .layer:nth-child(16):after {transform: translateZ(-7.5px);}
+.blok .Gnom1 .layer:nth-child(17):after {transform: translateZ(-8px);}
+.blok .Gnom1 .layer:nth-child(18):after {transform: translateZ(-8.5px);}
+.blok .Gnom1 .layer:nth-child(19):after {transform: translateZ(-9px);}
+.blok .Gnom1 .layer:nth-child(20):after {transform: translateZ(-9.5px);}
+.blok .Gnom1 .layer:nth-child(n+10):after {-webkit-text-stroke: 3px rgba(0, 0, 0, 0.25);}
+.blok .Gnom1 .layer:nth-child(n+11):after {-webkit-text-stroke: 15px dodgerblue;text-shadow: 6px 0 6px #00366b, 5px 5px 5px #002951, 0 6px 6px #00366b;}
+.blok .Gnom1 .layer:nth-child(n+12):after {-webkit-text-stroke: 15px #0077ea;}
+.blok .Gnom1 .layer:last-child:after {-webkit-text-stroke: 17px rgba(0, 0, 0, 0.1);}
+.blok .Gnom1 .layer:first-child:after {color: #fff;text-shadow: none;}
+@keyframes ಠ_ಠ {100% {transform: rotateY(-10deg) rotateX(-10deg);}}
+
+ .Gnom2 .stage2 {z-index:3;height: 0;width: 0;margin:auto;position:absolute;top:0;right: 0;bottom: 0;left: -220px;perspective: 9999px;transform-style: preserve-3d;}
+.Gnom2 .layer2 {width: 100%;height: 100%;position: absolute;transform-style: preserve-3d;animation-fill-mode: forwards;transform: rotateY(0deg) rotateX(0deg) translateZ(5deg);}
+.blok .Gnom2 .layer2:after {font: 30px/0.6 "Pacifico", "Kaushan Script", Futura, "Roboto", "Trebuchet MS", Helvetica, sans-serif;content: "Гном - защитник";white-space: pre;text-align: center;height: 100%;width: 100%;position: absolute;top: 50px;color: whitesmoke;text-shadow: 4px 0 10px rgba(0, 0, 0, 0.13);}
+.blok .Gnom2 .layer2:nth-child(1):after {transform: translateZ(0px);}
+.blok .Gnom2 .layer2:nth-child(2):after {transform: translateZ(-0.5px);}
+.blok .Gnom2 .layer2:nth-child(3):after {transform: translateZ(-1px);}
+.blok .Gnom2 .layer2:nth-child(4):after {transform: translateZ(-1.5px);}
+.blok .Gnom2 .layer2:nth-child(5):after {transform: translateZ(-2px);}
+.blok .Gnom2 .layer2:nth-child(6):after {transform: translateZ(-2.5px);}
+.blok .Gnom2 .layer2:nth-child(7):after {transform: translateZ(-3px);}
+.blok .Gnom2 .layer2:nth-child(8):after {transform: translateZ(-3.5px);}
+.blok .Gnom2 .layer2:nth-child(9):after {transform: translateZ(-4px);}
+.blok .Gnom2 .layer2:nth-child(10):after {transform: translateZ(-4.5px);}
+.blok .Gnom2 .layer2:nth-child(11):after {transform: translateZ(-5px);}
+.blok .Gnom2 .layer2:nth-child(12):after {transform: translateZ(-5.5px);}
+.blok .Gnom2 .layer2:nth-child(13):after {transform: translateZ(-6px);}
+.blok .Gnom2 .layer2:nth-child(14):after {transform: translateZ(-6.5px);}
+.blok .Gnom2 .layer2:nth-child(15):after {transform: translateZ(-7px);}
+.blok .Gnom2 .layer2:nth-child(16):after {transform: translateZ(-7.5px);}
+.blok .Gnom2 .layer2:nth-child(17):after {transform: translateZ(-8px);}
+.blok .Gnom2 .layer2:nth-child(18):after {transform: translateZ(-8.5px);}
+.blok .Gnom2 .layer2:nth-child(19):after {transform: translateZ(-9px);}
+.blok .Gnom2 .layer2:nth-child(20):after {transform: translateZ(-9.5px);}
+.blok .Gnom2 .layer2:nth-child(n+10):after {-webkit-text-stroke: 3px rgba(0, 0, 0, 0.25);}
+.blok .Gnom2 .layer2:nth-child(n+11):after {-webkit-text-stroke: 15px dodgerblue;text-shadow: 6px 0 6px #00366b, 5px 5px 5px #002951, 0 6px 6px #00366b;}
+.blok .Gnom2 .layer2:nth-child(n+12):after {-webkit-text-stroke: 15px #0077ea;}
+.blok .Gnom2 .layer2:last-child:after {-webkit-text-stroke: 17px rgba(0, 0, 0, 0.1);}
+.blok .Gnom2 .layer2:first-child:after {color: #fff;text-shadow: none;}
+@keyframes ಠ_ಠ {100% {transform: rotateY(-10deg) rotateX(-10deg);}}
+.blok .stage3 {
+z-index:3;
+  height: 1px;
+  width: 1px;
+  margin:auto;
+  position:absolute;
+  top:0;
+  
+  bottom: 0;
+  left: -290px;
+  perspective: 9999px;
+  transform-style: preserve-3d;
+}
+
+.layer3 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transform-style: preserve-3d;
+//  animation: ಠ_ಠ 5s infinite alternate ease-in-out -7.5s;
+animation-fill-mode: forwards;
+  transform: rotateY(0deg) rotateX(0deg) translateZ(0deg);
+}
+
+.layer3:after {
+  font: 30px/0.6 "Pacifico", "Kaushan Script", Futura, "Roboto", "Trebuchet MS", Helvetica, sans-serif;
+  content: "Гном - начальник";
+  white-space: pre;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 50px;
+  
+  color: whitesmoke;
+ letter-spacing: -2px;
+  text-shadow: 4px 0 10px rgba(0, 0, 0, 0.13);
+}
+
+.layer3:nth-child(1):after {transform: translateZ(0px);}
+.layer3:nth-child(2):after {transform: translateZ(-0.5px);}
+.layer3:nth-child(3):after {transform: translateZ(-1px);}
+.layer3:nth-child(4):after {transform: translateZ(-1.5px);}
+.layer3:nth-child(5):after {transform: translateZ(-2px);}
+.layer3:nth-child(6):after {transform: translateZ(-2.5px);}
+.layer3:nth-child(7):after {transform: translateZ(-3px);}
+.layer3:nth-child(8):after {transform: translateZ(-3.5px);}
+.layer3:nth-child(9):after {transform: translateZ(-4px);}
+.layer3:nth-child(10):after {transform: translateZ(-4.5px);}
+.layer3:nth-child(11):after {transform: translateZ(-5px);}
+.layer3:nth-child(12):after {transform: translateZ(-5.5px);}
+.layer3:nth-child(13):after {transform: translateZ(-6px);}
+.layer3:nth-child(14):after {transform: translateZ(-6.5px);}
+.layer3:nth-child(15):after {transform: translateZ(-7px);}
+.layer3:nth-child(16):after {transform: translateZ(-7.5px);}
+.layer3:nth-child(17):after {transform: translateZ(-8px);}
+.layer3:nth-child(18):after {transform: translateZ(-8.5px);}
+.layer3:nth-child(19):after {transform: translateZ(-9px);}
+.layer3:nth-child(20):after {transform: translateZ(-9.5px);}
+.layer3:nth-child(n+10):after {-webkit-text-stroke: 3px rgba(0, 0, 0, 0.25);}
+.layer3:nth-child(n+11):after {-webkit-text-stroke: 15px dodgerblue;text-shadow: 6px 0 6px #00366b, 5px 5px 5px #002951, 0 6px 6px #00366b;}
+.layer3:nth-child(n+12):after {-webkit-text-stroke: 15px #0077ea;}
+.layer3:last-child:after {-webkit-text-stroke: 17px rgba(0, 0, 0, 0.1);}
+.layer3:first-child:after {color: #fff;text-shadow: none;}
+@keyframes ಠ_ಠ {100% {transform: rotateY(-10deg) rotateX(-10deg);}}
+@import url("https://fonts.googleapis.com/css?family=Luckiest+Guy&display=swap");
+
+ .container{width:800px;}
+ .line {position:absolute;width:40%;overflow:hidden; border:2px solid #dddddd;box-shadow:10px 5px 5px 3px rgba(0,0,0,0.3);display:block;border-radius:10px;}
+ .line .line_cover{position:absolute;width:100%;height:100%;z-index:2;background:url(../images/bg.png);}
+ .line .line_text{position:absolute;width:100%;height:100%;z-index:1;}
+ .line .line_text #alm{width:auto;font-size:60px;font-weight:bold;color:#00ff00;background:rgb(50,80,50);z-index:3;overflow:hidden;border:#006400;}
+#l1.line{left:-232px;top:130px;width:320px;height:65px;background:rgb(50,80,50);}
+#l1.line .line_cover{}
+#login{position:relative;left:-130px;top:240px;font-style:oblique;font-size:24px;}
+.blok{position: absolute;width:900px;height:495px;top:150px;left: 400px; background:url(../images/Haxta.jpg);color:red;border:5px double #1E90FF; }
+
+.blok .Gnom1{}
+.blok .Gnom1 #name_gnom1{font-size:36px;}
+.blok .Gnom1 .number {position:relative;width: 50px;margin-top:5px; margin-left:-130px; display: inline-block;}
+.blok .Gnom1 .number input[type="number"] {display: block;height: 30px;line-height: 32px;width: 100%;padding: 0;margin-left:160px; box-sizing: border-box;text-align: center;-moz-appearance: textfield;-webkit-appearance: textfield;appearance: textfield;}
+.blok .Gnom1 .number input[type="number"]::-webkit-outer-spin-button,
+.blok .Gnom1 .number input[type="number"]::-webkit-inner-spin-button {display: none;}
+.blok .Gnom1 .number-minus {display: inline-flex;margin-left:140px;text-decoration: none;position:absolute;font-size: 20px;line-height: 20px;padding: 3px 10px;color: #FFF;font-weight: bold;text-transform: uppercase; font-family: 'Roboto Condensed', Тahoma, sans-serif;background: #337AB7;cursor: pointer;border: 2px solid #BFE2FF;outline: 1px solid;outline-color: #337AB7;outline-offset: 0px;text-shadow: none;transition: all 1.5s cubic-bezier(0.19, 1, 0.22, 1);  }
+.blok .Gnom1 .number-plus {position:absolute;display: inline-flex;text-decoration: none;font-size: 20px;line-height: 20px;padding: 3px 10px;color: #FFF;font-weight: bold;text-transform: uppercase; font-family: 'Roboto Condensed', Тahoma, sans-serif;background: #337AB7;cursor: pointer;border: 2px solid #BFE2FF;outline: 1px solid;outline-color: #337AB7;outline-offset: 0px;text-shadow: none;transition: all 1.5s cubic-bezier(0.19, 1, 0.22, 1);  top: 0px;left: 210px;}
+.blok .Gnom1 #gnom1{position: relative; width:260px;margin-top:55px;}
+.blok .Gnom1 #point{font-style:oblique;color:blue;font-size:28px;border:none;position:absolute;top:55px;left:230px;width:30px;text-align: center;}
+.blok .Gnom1 #cena_1{top:610px;position:absolute;font-style:oblique;font-size:18px;left:150px;}
+.blok .Gnom1 .atuin-btn {display: inline-flex;top:417px;left:130px;text-decoration: none;position:absolute;font-size: 20px;line-height: 20px;padding: 3px 10px;color: #FFF;font-weight: bold;text-transform: uppercase; font-family: 'Roboto Condensed', Тahoma, sans-serif;background: #337AB7;cursor: pointer;border: 2px solid #BFE2FF;outline: 1px solid;outline-color: #337AB7;outline-offset: 0px;text-shadow: none;transition: all 1.5s cubic-bezier(0.19, 1, 0.22, 1);}
+.blok .Gnom1 #point2{width:60px;}
+.blok .Gnom2{}
+.blok .Gnom2 #gnom2{position: relative; width:270px;top: -350px;left: 300px;}
+.blok .Gnom2 #point3{font-style:oblique;color:blue;font-size:28px;border:none;position:absolute;top:55px;width:30px;text-align: center;left:550px;}
+.blok .Gnom2 #cena_2{position:absolute;font-style:oblique;font-size:18px;left:440px;top:610px;}
+.blok .Gnom2 #point4{width:60px;}
+.blok .Gnom2 .atuin-btn2 {display: inline-flex;top:417px;left:450px;text-decoration: none;position:absolute;font-size: 20px;line-height: 20px;padding: 3px 10px;color: #FFF;font-weight: bold;text-transform: uppercase; font-family: 'Roboto Condensed', Тahoma, sans-serif;background: #337AB7;cursor: pointer;border: 2px solid #BFE2FF;outline: 1px solid;outline-color: #337AB7;outline-offset: 0px;text-shadow: none;transition: all 1.5s cubic-bezier(0.19, 1, 0.22, 1);  }
+.blok .Gnom2 .number_2 {display: inline-block;position: relative;width: 50px;top:-368px;  left:200px; }
+.blok .Gnom2 .number_2 input[type="number"] {display: block;height: 30px;line-height: 32px;width: 100%;padding: 0;margin-left:150px;margin-top:-295px;box-sizing: border-box;text-align: center;-moz-appearance: textfield;-webkit-appearance: textfield;appearance: textfield;}
+.blok .Gnom2 .number_2 input[type="number"]::-webkit-outer-spin-button,
+.blok .Gnom2 .number_2 input[type="number"]::-webkit-inner-spin-button {display: none;}
+.blok .Gnom2 .number-minus_2 {left:130px;top:-295px;display: inline-flex;text-decoration: none;position:absolute;font-size: 20px;line-height: 20px;padding: 3px 10px;color: #FFF;font-weight: bold;text-transform: uppercase; font-family: 'Roboto Condensed', Тahoma, sans-serif;background: #337AB7;cursor: pointer;border: 2px solid #BFE2FF;outline: 1px solid;outline-color: #337AB7;outline-offset: 0px;text-shadow: none;transition: all 1.5s cubic-bezier(0.19, 1, 0.22, 1);  }
+.blok .Gnom2 .number-plus_2 {display: inline-flex;top:-295px;left:200px;text-decoration: none;position:absolute;font-size: 20px;line-height: 20px;padding: 3px 10px;color: #FFF;font-weight: bold;text-transform: uppercase; font-family: 'Roboto Condensed', Тahoma, sans-serif;background: #337AB7;cursor: pointer;border: 2px solid #BFE2FF;outline: 1px solid;outline-color: #337AB7;outline-offset: 0px;text-shadow: none;transition: all 1.5s cubic-bezier(0.19, 1, 0.22, 1);  	}
+.blok .Gnom3{} 
+.blok .Gnom3 #gnom3{position: relative; width:280px;top:-950px;left:600px;}
+.blok .Gnom3 #point5{font-style:oblique;color:blue;font-size:28px;border:none;position:absolute;top:55px;width:30px;text-align: center;left:850px;}
+.blok .Gnom3 #cena_3{position:absolute;font-size:18px;top:610px;left:730px;}
+.blok .Gnom3 #point6{width:60px;}
+ .blok .Gnom3 .atuin-btn_3 {display: inline-flex;top:417px;left:755px;text-decoration: none;position:absolute;font-size: 20px;line-height: 20px;padding: 3px 10px;color: #FFF;font-weight: bold;text-transform: uppercase; font-family: 'Roboto Condensed', Тahoma, sans-serif;background: #337AB7;cursor: pointer;border: 2px solid #BFE2FF;outline: 1px solid;outline-color: #337AB7;outline-offset: 0px;text-shadow: none;transition: all 1.5s cubic-bezier(0.19, 1, 0.22, 1);  }
+.blok .Gnom3 .number_3 {display: inline-block;position: relative;width: 50px;top:-1023px;left: 655px;}
+.blok .Gnom3 .number_3 input[type="number"] {display: block;height: 30px;line-height: 32px;width: 100%;padding: 0;box-sizing: border-box;text-align: center;-moz-appearance: textfield;-webkit-appearance: textfield;appearance: textfield;}
+.blok .Gnom3 .number_3 input[type="number"]::-webkit-outer-spin-button,
+.blok .Gnom3 .number_3 input[type="number"]::-webkit-inner-spin-button {display: none;}
+.blok .Gnom3 .number-minus_3 {margin-left: -20px;display: inline-flex;text-decoration: none;position:absolute;font-size: 20px;line-height: 20px;padding: 3px 10px;color: #FFF;font-weight: bold;text-transform: uppercase; font-family: 'Roboto Condensed', Тahoma, sans-serif;background: #337AB7;cursor: pointer;border: 2px solid #BFE2FF;outline: 1px solid;outline-color: #337AB7;outline-offset: 0px;text-shadow: none;transition: all 1.5s cubic-bezier(0.19, 1, 0.22, 1);}
+.blok .Gnom3 .number-plus_3 {display: inline-flex;margin-top:-30px;margin-left: 50px;text-decoration: none;position:absolute;font-size: 20px;line-height: 20px;padding: 3px 10px;color: #FFF;font-weight: bold;text-transform: uppercase; font-family: 'Roboto Condensed', Тahoma, sans-serif;background: #337AB7;cursor: pointer;border: 2px solid #BFE2FF;outline: 1px solid;outline-color: #337AB7;outline-offset: 0px;text-shadow: none;transition: all 1.5s cubic-bezier(0.19, 1, 0.22, 1);  	}
+  
+
+      
+      
