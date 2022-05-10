@@ -1,0 +1,67 @@
+﻿body {min-height: 450px;height: 100vh;margin: 0;background: radial-gradient(circle, #0077ea, #1f4f96, #1b2949, #000);position:absolute;margin: 0px;padding: 0;font-family: Arial;font-family: 'madelikesscript';place-items: 20% 20%;perspective: 900px;height:100%;width:100%;background:url(../images/...);background-position: center center;background-attachment: fixed;background-size: cover;-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;}
+ /*****Навигация по сайту*****/
+ ul{z-index: 2; padding: 10px 0;margin: 0 0 30px;border: 1px #D5B88E;border-style: dashed none dashed none;list-style:none;width: 0px;float: none !important;overflow: hidden;}
+ ul li{width: 87px;padding: 0 6px;border: 1px #D5B88E;border-style: none none none dashed;float: left;}
+ ul#navigation{border: 0 none;float: none !important;margin: 0;padding: 0;position: absolute;width: auto;left: 900px;top: 80px;}
+ ul#navigation li{border:0;width: auto;padding: 50;text-align: center;line-height: 50px;height: 55px;}
+ ul#navigation li a{background: none;color: #FFFFFF;font-weight: normal;height: auto;margin: 0;text-decoration: none;text-shadow: none;width: auto;outline:none;}
+ ul#navigation li a:hover{color: #c0ab8a;}
+ ul#navigation li#link1{width:74px;}
+ ul#navigation li#link1.selected{background: no-repeat 0 -223px;}
+ ul#navigation li#link2{width:74px;}
+ ul#navigation li#link2.selected{background: no-repeat 0 -223px;}
+ ul#navigation li#link3{width:84px;}
+ ul#navigation li#link3.selected{background: no-repeat 0 -223px;}
+ ul#navigation li#link4{width:74px;}
+ ul#navigation li#link4.selected{background:no-repeat 0 -223px;}
+ ul#navigation li#link5{width:74px;}
+ ul#navigation li#link5.selected{background:no-repeat 0 -223px;}
+#foto{position:absolute; left:700px; top: 155px;}
+.main{font-size:34px;text-align: center; position: absolute; }
+.main #fon{position:relative;  z-index:-2;}
+.main .helloy{position: relative;left: -600px; top:-900px;}
+
+.main .info{top: -350px;  left: -200px; position: relative;font-size:34px;text-align: center;}
+.main .info #cool{position: relative; font-size: 14px; }
+.main .info2{text-align: center; position: relative;font-size:34px;top:-400px;left: -200px;}
+.main .info2 #fon2{position: relative;top: -150px;z-index: -2;}
+.main .web{position: absolute;top:200px;left:200px;}
+.main .web #Smallweb{position: relative; font-size: 14px;left: 100px; }
+.main .web #Smallweb2{position: relative; font-size: 14px;top:-170px;left:550px;}
+.main .web #Smallweb3{position: relative; font-size: 14px;top:-330px;left:900px;}
+.main .web #Smallweb4{position: relative; font-size: 14px;top:-485px;left: 1300px;}
+.main .keis{position: relative;top:-550px;left: -200px;}
+.main .keis #sitelive{position: relative;top: -500px;left: -300px;}
+.main .keis #client{position: relative;left: -200px;font-size: 14px;}
+.main .keis #client2{position: relative;font-size: 18px;top: -450px;left: -500px;}
+.main .keis #namesite{position: relative;text-align: right;left: -200px;top: -300px;}
+.main #fon4{position: relative;z-index: -2;top: -50px;}
+.main .statist{text-align: center; position: relative;font-size:34px;left: -200px;top: -550px;}
+.main .statist .web2{ position: relative;font-size:34px;left: -600px;top: 150px;}
+.main .web2 #Small{position: relative; font-size: 14px;left: 50px; }
+.main .web2 #Small2{position: relative; font-size: 14px;top:-170px;left:450px;}
+.main .web2 #Small3{position: relative; font-size: 14px;top:-340px;left:800px;}
+.main .web2 #Small4{position: relative; font-size: 14px;top:-510px;left: 1200px;}
+.main .otzbIv{position: relative;left: -200px;top: -850px;}
+.main #fon5{position: relative;z-index: -2;top: -680px;left: -200px;}
+.main .kontact{position: relative;top:-1450px;left: -200px;}
+.main .kontact #story{position: relative;color: white;top: -100px;}
+.main .kontact #name{width: 401px;height: 30px;}
+.main .kontact #email{width: 401px;height: 30px;}
+.main .kontact #pole1{position: relative;top: -30px;}
+.main .kontact #ykaz{position: relative;top: -400px;left: -300px;}
+.main .kontact #kont{position: relative;font-size: 14px;color: white;}
+.main .kontact #geo{position: relative;font-size: 14px;color: white;left: -300px;}
+.main .kontact #po4ta{position: relative;top: -160px;left: 300px; font-size: 14px;color: white;}
+.main .kontact #telefon{position: relative;font-size: 14px;top: -90px; color: white;}
+.main .main2 {position: absolute; }
+.main2 .pole1{position: relative; top: -850px;left: 320px;}
+.main2 .pole1 #tip{position: relative;top:-50px;}
+.main2 .pole1 #diz{position: relative;top:-100px;}
+.main2 .pole1 #adap{position: relative;top:-150px;left:5px;}
+.main2 .pole1 #summa{position: relative;top: -180px;left: -300px;}
+.main2 .pole1 #data{position: relative;border: none;font-size: 24px;}
+.main2 .pole1 #Rubl{position: relative;top: -320px;left: 300px;}
+.main2 .pole1 #rub{position: relative;border: none;font-size: 24px;}
+
+
