@@ -50,7 +50,7 @@
 .main .kontact #email{width: 401px;height: 30px;}
 .main .kontact #pole1{position: relative;top: -30px;}
 .main .kontact #ykaz{position: relative;top: -400px;left: -300px;}
-.main .kontact #kont{position: relative;font-size: 14px;color: white;}
+.main .kontact #kont{position: relative;color: white;}
 .main .kontact #geo{position: relative;font-size: 14px;color: white;left: -300px;}
 .main .kontact #po4ta{position: relative;top: -160px;left: 300px; font-size: 14px;color: white;}
 .main .kontact #telefon{position: relative;font-size: 14px;top: -90px; color: white;}
