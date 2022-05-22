@@ -1,0 +1,71 @@
+﻿body {min-height: 450px;margin: 0 auto;width: 100%;height: 100%; background: radial-gradient(circle, #0077ea, #1f4f96, #1b2949, #000);position:absolute;font-family: Arial;font-family: 'madelikesscript';}
+ /*****Навигация по сайту*****/
+ ul{z-index: 2; border: 1px #D5B88E;border-style: dashed none dashed none;list-style:none;width: 0px;float: none !important;overflow: hidden;}
+ ul li{width: 87px;padding: 0 6px;border: 1px #D5B88E;border-style: none none none dashed;float: left;}
+ ul#navigation{border: 0 none;float: none !important;margin: 0 auto;padding: 0;position: absolute;width: auto;left: 1080px;}
+ ul#navigation li{border:0;width: auto;padding: 50;text-align: center;line-height: 50px;height: 55px;}
+ ul#navigation li a{background: none;color: #FFFFFF;font-weight: normal;height: auto;margin: 0;text-decoration: none;text-shadow: none;width: auto;outline:none;}
+ ul#navigation li a:hover{color: #c0ab8a;}
+ ul#navigation li#link1{width:74px;}
+ ul#navigation li#link1.selected{background: no-repeat 0 -223px;}
+ ul#navigation li#link2{width:74px;}
+ ul#navigation li#link2.selected{background: no-repeat 0 -223px;}
+ ul#navigation li#link3{width:84px;}
+ ul#navigation li#link3.selected{background: no-repeat 0 -223px;}
+ ul#navigation li#link4{width:74px;}
+ ul#navigation li#link4.selected{background:no-repeat 0 -223px;}
+ ul#navigation li#link5{width:74px;}
+ ul#navigation li#link5.selected{background:no-repeat 0 -223px;}
+
+ nav{background:#344051;width:100%; height: 60px;}
+.logo{font-size: 28px;line-height: 60px;padding-left: 388px; color: white;float: left;} 
+.post1{background: url(../images/foto.png)90% 10% no-repeat, url(../images/fon_1.png)center/cover no-repeat;width: 100%;height:1047px;}
+.hellow{text-shadow: 1px 1px 10px red; text-align: center;top: 30%;left: -28%;font-size: 30px; position: relative;}
+.hellow #result1{width: 100px;height: 50px;border:solid 3px grey;border-radius:5px;background: rgb(0,0,0,0);font-size: 18px;color: grey; }
+.hellow #result2{width: 150px;height: 50px;border:solid 3px grey;border-radius:5px;background: rgb(0,0,0,0);font-size: 18px;color: grey; }
+.glava{text-align:center;width:100%;height:100px;font-size:30px;}
+.post2{margin:0 auto;background:url(../images/Foto_2.png) center top no-repeat;text-align:center;max-width:1920px;height:450px;}
+.post2 .info{position:relative;top:220px;}
+.post2 .info #save{background: url(../images/icon.png)center left no-repeat;width: 190px;height: 40px;font-size: 20px;border-radius: 10px;border: solid 2px grey;color: grey;}
+.post3{background:url(../images/fon_3.png)center top no-repeat;width:100%;height:500px;}
+.post3 .work{width: 1700px;height: 300px;text-align: center;position: relative;margin: 0 auto;top: 100px;left: 100px;font-size: 16px;}
+.post3 .web1{ background:url(../images/noyt.png)center top  no-repeat; margin-right: 200px;width: 200px;height:200px;float: left;}
+.post3 .web2{background:url(../images/znak.png)center top  no-repeat; margin-right: 200px;width: 200px;height: 200px;float: left;}
+.post3 .web3{background:url(../images/raketa.png)center top no-repeat;margin-right: 200px;text-align: center; width: 200px;height: 200px;float: left;}
+.post3 .web4{background:url(../images/gramofon.png)center top no-repeat;margin-right: 200px;text-align: center;width: 200px;height: 200px;float: left;}
+.post4 {background:url(../images/foto_3.png)center no-repeat;position: relative;left:  width:100%;height:730px;font-size: 14px; }
+.post4  #keis1{position:relative;width:700px;height:200px;margin: 0 auto;top: 500px;left: 220px; text-align: right;}
+.post4  #keis2{position:relative;width:200px;height:200px;margin: 0 auto;top: 320px; left: -450px; text-align: left;}
+.post4  #keis2 #client{font-size: 20px;width: 200px;height: 50px;background: #63b5ae;border: none;border-radius: 7px;color: white;}
+.post5{margin:0 auto;position: relative; font-size: 20px;width:100%;height:850px;}
+.post5 #main1{width:100%;height:400px;position: relative;text-align:left;left: 22%; font-size:34px; }
+.post5 #main2{width:1000px;height:250px;position: relative;font-size: 28px;top:200px;text-align:center;margin:0 auto;}
+.post5 #main2 .tip2{float:left;left:13%;width:200px;height:150px;position: relative;text-align:left;}
+.post5 #main2 .tip3{float:left;left:58%;width:200px;height:150px;position: relative;}
+.post5 #main2 .tip3 #data{background:white;text-align:center;position: relative;border:none;font-size:36px;width:150px;top:2px;font-style:oblique;}
+.post5 #main2 .tip3 #rub{background:white; text-align:center;position: relative;border: none;font-size:36px;top:23px;width:150px;font-style:oblique;}
+.post5 select{width:55%;border-radius:10px;background:#eeeeee; opacity:0.5; height:70px;font-size:40px;}
+.post6{background:url(../images/fon_4.png) center top no-repeat;width:100%;height:500px;}
+.post6 .work{position:relative;top:100px;left: 100px; width: 1700px;height: 300px; margin: 0 auto;text-align: center; font-size: 24px;}
+.post6 .web1{background:url(../images/smail.png)center top no-repeat;margin-right: 200px;width: 200px;height:200px;float: left;}
+.post6 .web2{background:url(../images/skoba.png) center top no-repeat;margin-right: 200px;width: 200px;height:200px;float: left;}
+.post6 .web3{background:url(../images/galo4ka.png) center top no-repeat;margin-right: 200px;width: 200px;height:200px;float: left;}
+.post6 .web4{background:url(../images/kybok.png) center top no-repeat;margin-right: 200px;width: 200px;height:200px;float: left;}
+.post6 .glava{position:relative;top:50px;}
+.post7{background:url(../images/otz.png) center no-repeat;position:relative;text-align: center; top: 100px;width:100%;height:580px;font-size: 24px;}
+.post7 .dl1{width: 15px;height: 15px;background:#c96500;border-radius: 50%;margin-right: 10px;float:left;position: relative;left: 48%;}
+.post7 .dl2{width: 15px;height: 15px;background:#cfd2d7;border-radius: 50%;margin-right: 10px;float:left;position: relative;left: 48%;}
+.post7 .dl3{width: 15px;height: 15px;background: #cfd2d7;border-radius: 50%;margin-right: 10px;float:left;position: relative;left: 48%;}
+.post7 .otz{position: relative; top: 250px; width: 1500px;height: 100px;margin: 0 auto;}
+.post8{z-index: -1; background:url(../images/fon_5.png) center no-repeat;width:100%;height:1040px; margin: 0 auto;position: relative;}
+.post8 #story1{ position: relative;color: white;font-size: 18px;width: 1000px;height: 300px;margin: 0 auto;text-align: center;}
+.post8 #story1 #geo1{width: 200px;height: 200px; position: relative;background: url(../images/geo.png)center top no-repeat;margin-left: 50px;float: left;}
+.post8 #story1 #geo2{width: 200px;height: 200px; position: relative;background: url(../images/tryba.png)center top no-repeat;margin-left: 150px;float: left;}
+.post8 #story1 #geo3{width: 200px;height: 200px; position: relative;background: url(../images/konvert.png)center top no-repeat;margin-left: 150px;float: left;}
+.post8 #story2{width: 1000px; text-align: center; position: relative;color:white;font-size: 18px;top: -100px;margin: 0 auto;}
+.post8 #story2 #name{width: 364px;height: 30px;position: relative;}
+.post8 #story2 #email{width: 364px;height: 30px;position: relative;margin-left: 5px;}
+.post8 #story2 #result3{border-radius: 5px;background:rgb(0,0,0,0);color: white;width: 150px;height: 50px;font-size: 18px;border:solid 3px white;}
+.post8 #story3{position: relative;top: -2%; background: url(../images/maps.png)center top no-repeat;width: 100%;height: 500px;}
+.post8 #story3 #result4{width: 150px;height: 50px;font-size: 18px;text-align: center;position: relative;top: 140px;left: 45%;}
+.post9{background:#344051;width:100%; height: 96px;color: white;text-align: center;font-size: 24px;}
